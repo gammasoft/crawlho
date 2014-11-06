@@ -94,7 +94,7 @@ function crawl(args, callback) {
 		delay: 1000,
 		onResult: function(results) {
 			results.forEach(function(result) {
-				process.stdout.write(resultado + os.EOL);
+				process.stdout.write(result + os.EOL);
 			});
 		},
 		shouldResetLevel: function() {
