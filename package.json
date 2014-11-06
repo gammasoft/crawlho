@@ -1,0 +1,29 @@
+{
+  "name": "crawlho",
+  "version": "0.0.1",
+  "description": "Simple web crawler",
+  "main": "app.js",
+  "scripts": {
+    "test": "exit 0;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gammasoft/crawlho.git"
+  },
+  "keywords": [
+    "web",
+    "crawler"
+  ],
+  "author": "Renato Gama <renato@gammasoft.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gammasoft/crawlho/issues"
+  },
+  "homepage": "https://github.com/gammasoft/crawlho",
+  "dependencies": {
+    "async": "^0.9.0",
+    "cheerio": "^0.17.0",
+    "request": "^2.47.0",
+    "underscore": "^1.7.0"
+  }
+}
