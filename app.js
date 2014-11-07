@@ -40,7 +40,7 @@ function _crawl(args, callback) {
 			}
 
 			var $ = cheerio.load(body),
-				results = args.extract($),
+				results = args.extract($, args.url),
 				links = [];
 
 			if(results.length && args.onResult) {
